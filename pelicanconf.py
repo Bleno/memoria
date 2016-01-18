@@ -33,3 +33,25 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+
+THEME = 'theme/pelican-materialize-starter/'
+# Uncomment following line if you want document-relative URLs when developing
+#RELATIVE_URLS = True
+
+
+###############################
+### Config materialize theme
+NAVBARFIXED = True
+NAVCOLLOR = 'purple darken-2'
+ABOUTCOMPANY = (('Company Bio', """We are a team of college students 
+                                working on this project like it's our
+                                 full time job. Any amount would help support
+                                 and continue development on this project and
+                                 is greatly appreciated."""),)
+
+COPYRIGHT = """<div class="container">
+                Made by <a class="orange-text text-lighten-3"
+                href="http://materializecss.com">Materialize</a>
+                </div>"""
+                           
