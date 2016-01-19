@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Bleno Silva'
 SITENAME = u'Jogo da Mem\xf3ria'
-SITEURL = 'http://bleno.github.io/memoria/'
+SITEURL = ''
 
 PATH = 'content'
 
