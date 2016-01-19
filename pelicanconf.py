@@ -8,6 +8,8 @@ SITEURL = 'memoria/'
 
 PATH = 'content'
 
+STATIC_PATHS = ['downloads']
+
 TIMEZONE = 'America/Sao_Paulo'
 
 DEFAULT_LANG = u'pt'
