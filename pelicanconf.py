@@ -35,13 +35,14 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 
-THEME = 'theme/pelican-materialize-starter/'
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
 
 ###############################
 ### Config materialize theme
+THEME = 'theme/pelican-materialize-starter/'
+SUBPATH = 'memoria'
 NAVBARFIXED = True
 NAVCOLLOR = 'purple darken-2'
 ABOUTCOMPANY = (('Company Bio', """We are a team of college students 
