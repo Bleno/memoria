@@ -15,7 +15,7 @@ before_install:
 # substitua git@github.com:humrochagf/humrochagf.github.io.git
 # pelo endereço de acesso ssh do seu repositório
 - git remote set-url origin git@github.com:Bleno/memoria.git
-- sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+#- sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
 - git submodule update --init --recursive
 # Caso esteja montando a página de projeto troque master:master
 # por gh-pages:gh-pages
