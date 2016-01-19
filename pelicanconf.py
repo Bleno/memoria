@@ -35,7 +35,7 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 
-THEME = '/theme/pelican-materialize-starter/'
+THEME = 'theme/pelican-materialize-starter/'
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
