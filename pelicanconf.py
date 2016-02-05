@@ -37,6 +37,8 @@ DEFAULT_PAGINATION = 10
 RELATIVE_URLS = True
 
 
+GOOGLE_ANALYTICS = 'UA-71083804-2'
+
 ###############################
 ### Config materialize theme
 THEME = 'theme/pelican-materialize-starter/'
