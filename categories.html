@@ -8,7 +8,7 @@
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- <link href=" memoria/theme/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/> -->
-  <link  href="http://materializecss.com/dist/css/materialize.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
   <link href="http://materializecss.com/templates/starter-template/css/style.css" rel="stylesheet" media="screen,projection"/>
   <!-- <link href=" memoria/theme/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/> -->
   <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Jogo da Memória Atom Feed" />
@@ -16,8 +16,21 @@
   <!--[if IE]>
       <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
+  <style>
+    body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+      background: #FFC1C1;
+    }
+
+    main {
+      flex: 1 0 auto;
+    }
+  </style>
 </head>
 <body>
+<main>
     <div class="navbar-fixed">
       <nav class="z-depth-3 purple darken-2" role="navigation">
         <div class="nav-wrapper container"><a id="logo-container" href="/" class="brand-logo z-depth-1">Jogo da Memória </a>
@@ -44,6 +57,7 @@
     </div>
 <ul>
 </ul>
+  </main>
   <footer class="page-footer orange">
     <div class="container">
       <div class="row">
@@ -83,9 +97,9 @@
   </footer>
 
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="http://materializecss.com/bin/materialize.js"></script>
-  <script src="http://materializecss.com/templates/starter-template/js/init.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+  <script src="http://materializecss.com/js/init.js"></script>
   <!-- // <script src=" memoria/theme/js/materialize.js"></script> -->
   <!-- // <script src=" memoria/theme/js/init.js"></script> -->
     <script type="text/javascript">
@@ -99,4 +113,5 @@
     })();
     </script>
   </body>
+
 </html>
